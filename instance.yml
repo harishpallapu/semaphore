@@ -1,7 +1,7 @@
 ---
 - name: provisioning EC2 instances using Ansible
 hosts: localhost
-connection: 65.0.124.46
+connection: local
 gather_facts: False
 tags: provisioning
 
