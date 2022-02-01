@@ -1,7 +1,7 @@
 ---
 - name: provisioning EC2 instances using Ansible
-hosts: localhost
-connection: local
+hosts: all
+become: true
 gather_facts: False
 tags: provisioning
 
